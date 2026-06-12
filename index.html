@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Você caiu em um golpe</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    padding:20px;
+}
+
+.container{
+    max-width:800px;
+    width:100%;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
+.icon{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#ef4444;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.3rem;
+    margin-bottom:30px;
+    color:#cbd5e1;
+}
+
+.alert-box{
+    background:rgba(239,68,68,.15);
+    border:1px solid rgba(239,68,68,.4);
+    border-radius:12px;
+    padding:20px;
+    margin:25px 0;
+}
+
+.alert-box p{
+    font-size:1.15rem;
+    line-height:1.8;
+}
+
+.tips{
+    margin-top:30px;
+    text-align:left;
+}
+
+.tips h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#60a5fa;
+}
+
+.tip{
+    background:rgba(255,255,255,.05);
+    margin-bottom:15px;
+    padding:15px;
+    border-radius:10px;
+    border-left:4px solid #60a5fa;
+}
+
+.tip strong{
+    display:block;
+    margin-bottom:5px;
+}
+
+.footer{
+    margin-top:30px;
+    color:#94a3b8;
+    font-size:.95rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 28px;
+    background:#ef4444;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#dc2626;
+    transform:translateY(-2px);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="icon">⚠️</div>
+
+    <h1>Você caiu em um golpe do grupo Chads</h1>
+
+    <p class="subtitle">
+        Este foi um exemplo de ataque de engenharia social.
+    </p>
+
+    <div class="alert-box">
+        <p>
+            <strong>Você caiu em um golpe de engenharia social.</strong><br><br>
+            Preste atenção na diferença da logo da marca,
+            na URL do site e também no endereço de e-mail do remetente.
+        </p>
+    </div>
+
+    <div class="tips">
+        <h2>O que observar?</h2>
+
+        <div class="tip">
+            <strong>🔍 Logo da marca</strong>
+            Pequenas diferenças no logotipo podem indicar uma página falsa.
+        </div>
+
+        <div class="tip">
+            <strong>🌐 URL do site</strong>
+            Verifique cuidadosamente o endereço do site antes de inserir dados pessoais.
+        </div>
+
+        <div class="tip">
+            <strong>📧 E-mail do remetente</strong>
+            Confira se o domínio do e-mail realmente pertence à empresa.
+        </div>
+
+        <div class="tip">
+            <strong>🚨 Mensagens urgentes</strong>
+            Golpistas costumam pressionar a vítima para agir rapidamente sem verificar as informações.
+        </div>
+    </div>
+
+    <a href="#" class="btn">Entendi a lição</a>
+
+    <p class="footer">
+        Segurança digital começa com atenção aos detalhes.
+    </p>
+
+</div>
+
+</body>
+</html>
